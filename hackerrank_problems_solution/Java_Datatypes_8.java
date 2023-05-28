@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Java_Datatypes_8 {
     public static void main(String[] args) {
 
-        // https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
+    //https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
         
         Scanner sc = new Scanner(System.in);
         
