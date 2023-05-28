@@ -2,7 +2,7 @@ package hackerrank_problems_solution;
 
 import java.util.Scanner;
 
-public class Java_Anagrams {
+public class Java_Anagrams_18 {
     public static void main(String[] args) {
 
     //https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
@@ -32,7 +32,6 @@ public class Java_Anagrams {
             for (int i = 0; i < 256; i++) {
                 if (a[i] != b[i])
                     return false;
-
             }
             return true;
         }
