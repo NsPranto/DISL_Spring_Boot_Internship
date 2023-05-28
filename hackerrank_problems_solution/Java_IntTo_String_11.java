@@ -1,7 +1,6 @@
 package hackerrank_problems_solution;
 
 import java.util.Scanner;
-import java.security.*;
 public class Java_IntTo_String_11 {
  public static void main(String[] args) {
 
@@ -38,14 +37,6 @@ class DoNotTerminate {
  }
 
  public static void forbidExit() {
-  final SecurityManager securityManager = new SecurityManager() {
-   @Override
-   public void checkPermission(Permission permission) {
-    if (permission.getName().contains("exitVM")) {
-     throw new ExitTrappedException();
-    }
-   }
-  };
-  System.setSecurityManager(securityManager);
+  
  }
 }
