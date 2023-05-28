@@ -14,7 +14,7 @@ public class Java_IntTo_String_11 {
    in.close();
    //String s=???; Complete this line below
 
-   String s = Integer.toString(n);
+   String s = Integer.toString(n);//This is the (Int to string) converting function
 
    
    if (n == Integer.parseInt(s)) {
