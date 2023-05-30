@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Java_Substring_Comparisons_16 {
 
     public static String getSmallestAndLargest(String s, int k) {
-        String smallest = "";
-        String largest = "";
+        String S = "";
+        String L = "";
         
         java.util.List<String> a = new java.util.ArrayList<>();
 
@@ -12,9 +12,9 @@ public class Java_Substring_Comparisons_16 {
                 a.add(s.substring(i,i+k));   
         }
         java.util.Collections.sort(a);
-         smallest = a.get(0);
-         largest = a.get(a.size()-1);
-        return smallest + "\n" + largest;
+         S = a.get(0);
+         L = a.get(a.size()-1);
+        return S + "\n" + L;
     }
     public static void main(String[] args) {
         //https://www.hackerrank.com/challenges/java-string-compare/problem?isFullScreen=true
