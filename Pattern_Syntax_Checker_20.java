@@ -5,13 +5,13 @@ public class Pattern_Syntax_Checker_20
 {
    public static void main(String[] args){
     //https://www.hackerrank.com/challenges/pattern-syntax-checker/problem?isFullScreen=true
-       Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        in.nextLine();
-        in.close(); 
+       Scanner input = new Scanner(System.in);
+        int N = input.nextInt();
+        input.nextLine();
+        input.close(); 
 
-        for (int i = 0; i < n; i++) {
-            String regex = in.nextLine();
+        for (int i = 0; i < N; i++) {
+            String regex = input.nextLine();
 
             try {
                 Pattern.compile(regex);
