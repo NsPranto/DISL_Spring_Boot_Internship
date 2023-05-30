@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Java_String_Tokens_19 {
     public static void main(String[] args) {
         //https://www.hackerrank.com/challenges/java-string-tokens/problem?isFullScreen=true
-         Scanner sc = new Scanner(System.in);
-         String S = sc.nextLine();
-         sc.close();
+         Scanner input = new Scanner(System.in);
+         String S = input.nextLine();
+         input.close();
          String[] tokens = S.split("[^a-zA-Z]");
          int numTokens = 0;
         
