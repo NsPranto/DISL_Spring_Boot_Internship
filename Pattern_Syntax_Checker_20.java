@@ -4,6 +4,8 @@ import java.util.regex.*;
 public class Pattern_Syntax_Checker_20
 {
    public static void main(String[] args){
+    //https://www.hackerrank.com/challenges/pattern-syntax-checker/problem?isFullScreen=true
+    //https://www.youtube.com/watch?v=a46eKP6mL1A
        
       Scanner in = new Scanner(System.in);
       int testCases = Integer.parseInt(in.nextLine());
