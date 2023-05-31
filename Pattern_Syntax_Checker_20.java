@@ -9,6 +9,7 @@ public class Pattern_Syntax_Checker_20
        
       Scanner in = new Scanner(System.in);
       int testCases = Integer.parseInt(in.nextLine());
+      in.close();
       while(testCases>0){
          String pattern = in.nextLine();
           try{
