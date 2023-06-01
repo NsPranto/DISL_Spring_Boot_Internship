@@ -1,8 +1,6 @@
 import java.util.Scanner;
 class UsernameValidator {
-    /*
-     * Write regular expression here.
-     */
+
     public static final String regularExpression = "^[a-zA-Z]\\w{7,29}$";
 }
 public class Valid_Username_RegularExpression_23 {
