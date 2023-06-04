@@ -3,6 +3,9 @@ import java.util.regex.*;
 
 public class Tag_Content_Extractor_24 {
     public static void main(String[] args) {
+        //https://www.hackerrank.com/challenges/tag-content-extractor/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+        //https://www.youtube.com/watch?v=IMO3XBptPUo
+        //https://www.hackerrank.com/challenges/tag-content-extractor/forum
 
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
