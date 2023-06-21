@@ -1,3 +1,5 @@
+package hackerrank_problems_solution;
+
 
 class BiCycle {
 	String define_me() {

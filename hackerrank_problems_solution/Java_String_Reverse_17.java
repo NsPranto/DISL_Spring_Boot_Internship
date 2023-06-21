@@ -1,3 +1,5 @@
+package hackerrank_problems_solution;
+
 import java.util.*;
 
 public class Java_String_Reverse_17 {

@@ -1,3 +1,5 @@
+package hackerrank_problems_solution;
+
 import java.util.Scanner;
 
 class Java_Regex_21{

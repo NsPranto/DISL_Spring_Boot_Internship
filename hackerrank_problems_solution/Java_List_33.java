@@ -1,10 +1,5 @@
 package hackerrank_problems_solution;
-
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Java_List_33 {
 
@@ -13,6 +8,7 @@ public class Java_List_33 {
         final Scanner in = new Scanner(System.in);
         final int size = in.nextInt();
         final List<Integer> list = new LinkedList<>();
+        in.close();
         for (int i = 0; i < size; i++) {
             list.add(in.nextInt());
         }

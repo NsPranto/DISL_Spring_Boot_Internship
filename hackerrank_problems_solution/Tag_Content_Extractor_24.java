@@ -1,3 +1,5 @@
+package hackerrank_problems_solution;
+
 import java.util.*;
 import java.util.regex.*;
 

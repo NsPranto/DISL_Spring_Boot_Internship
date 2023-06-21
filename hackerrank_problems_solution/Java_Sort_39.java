@@ -32,6 +32,7 @@ public class Java_Sort_39
       int testCases = Integer.parseInt(in.nextLine());
       
       List<Student> studentList = new ArrayList<Student>();
+      in.close();
       while(testCases>0){
          int id = in.nextInt();
          String fname = in.next();
