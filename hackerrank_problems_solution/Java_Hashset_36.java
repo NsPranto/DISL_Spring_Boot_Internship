@@ -10,6 +10,7 @@ public class Java_Hashset_36 {
         int t = s.nextInt();
         String [] pair_left = new String[t];
         String [] pair_right = new String[t];
+        s.close();
         
         for (int i = 0; i < t; i++) {
             pair_left[i] = s.next();

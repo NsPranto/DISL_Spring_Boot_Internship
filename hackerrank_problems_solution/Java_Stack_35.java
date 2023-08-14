@@ -28,7 +28,7 @@ public class Java_Stack_35 {
     }
     
     public static void main(String[] args) {
-        Stack<Character> stack = new Stack<Character>();
+        //Stack<Character> stack = new Stack<Character>();
         Scanner sc = new Scanner(System.in);
         String line;
         while (sc.hasNextLine()){
@@ -36,5 +36,6 @@ public class Java_Stack_35 {
             if (isBalanced(line)) System.out.println("true");
             else System.out.println("false");
         }
+        sc.close();
     }
 }

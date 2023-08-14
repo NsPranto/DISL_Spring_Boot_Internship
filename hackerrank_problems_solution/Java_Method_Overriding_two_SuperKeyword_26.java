@@ -26,5 +26,6 @@ class Solution {
 	public static void main(String[] args) {
 		// https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 		MotorCycle M = new MotorCycle();
+		System.out.println(M);
 	}
 }

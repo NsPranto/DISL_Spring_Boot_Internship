@@ -15,7 +15,7 @@ public class Java_Arraylist_31 {
     for(int i=0;i<total;i++)
     {
      int size=scan.nextInt();
-     ArrayList<Integer> list=new ArrayList();
+     ArrayList<Integer> list= new ArrayList();
 
      for(int j=0;j<size;j++)
        {

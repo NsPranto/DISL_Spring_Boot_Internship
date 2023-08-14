@@ -13,6 +13,8 @@ public class Java_Dequeue_40 {
         int m = in.nextInt();
         int max = Integer.MIN_VALUE;
 
+        in.close();
+
         for (int i = 0; i < n; i++) {
             int input = in.nextInt();
             
