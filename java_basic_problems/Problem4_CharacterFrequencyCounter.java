@@ -6,7 +6,7 @@ public class Problem4_CharacterFrequencyCounter {
     public static void main(String[] args) {
         String input = "dhrubok infotech";
         
-        Map<Character, Integer> charFrequencyMap = new TreeMap<>();
+        Map<Character, Integer> charFrequencyMap = new TreeMap<>();//key--> Char, Type--> Integer
         
         for (char c : input.toCharArray()) {
             if (c != ' ') {
